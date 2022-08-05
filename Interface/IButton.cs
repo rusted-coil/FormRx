@@ -1,10 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace FormRx.Interface
+namespace Rcsrm.FormRx
 {
-    internal interface IButton
+    public interface IButton
     {
+        /// <summary>
+        /// クリックされた時にOnNextが通知されるストリームを取得します。
+        /// </summary>
+        IObservable<Unit> Clicked { get; }
     }
 }
