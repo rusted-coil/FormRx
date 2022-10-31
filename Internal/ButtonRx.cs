@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Reactive;
 using System.Reactive.Subjects;
 
 namespace Rcsrm.FormRx.Internal
